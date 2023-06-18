@@ -11,14 +11,14 @@ Build the Robot_arm model in Blender and output each component as .obj file.
 
 ## Implement keyboard-based interaction with the robot arm
 
-Use the **transformation matrix** to implement it.
+Use the **affine transformation matrix** to implement it.
 
 ## Create a Blinn-Phong model
 
 Blinn-Phong model:
-$$
-L = L_{a}+L_{d}+L_{s}=k_{a}I_{a}+k_{d}(I/r^{2})max(0,\vec{n} \cdot \vec{l})+k_{s}(I/r^{2})max(0,\vec{n} \cdot \vec{h})^{p}
-$$
+
+$$L = L_{a}+L_{d}+L_{s}=k_{a}I_{a}+k_{d}(I/r^{2})max(0,\vec{n} \cdot \vec{l})+k_{s}(I/r^{2})max(0,\vec{n} \cdot \vec{h})^{p}$$
+
 
 
 ## Enable the Color picking
