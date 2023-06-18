@@ -26,3 +26,5 @@ $$L = L_{a}+L_{d}+L_{s}=k_{a}I_{a}+k_{d}(I/r^{2})max(0,\vec{n} \cdot \vec{l})+k_
 By reading the color of the pixel under the mouse cursor, it can identify which object is being pointed at. This color is then converted back to an integer ID representing the specific object. Depending on the ID, a corresponding boolean flag is toggled, indicating whether the object is selected or not. While the color rendering is generally hidden from view, it can optionally be displayed, showing each object in its unique picking color.
 
 ## Result
+
+<img src="img/result.gif" alt="result" style="zoom:80%;" />
